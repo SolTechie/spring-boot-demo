@@ -1,0 +1,12 @@
+spring:
+    #classpath:config/ 会覆盖 classpath下的configVar2 可以用作生产环境对开发环境的覆盖
+    configVar2: "config_var_2_yaml"
+
+configVar3: "config_var_3"
+
+
+jdbc:
+    url: "jdbc:mysql://mysql-server/docker_dev"
+    username: "root"
+    password: "123456"
+
